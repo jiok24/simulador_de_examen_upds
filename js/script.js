@@ -116,6 +116,9 @@ function cargarPreguntas() {
         case"programacion-3":
             questions = [...programacion3];
             break;
+        case"juegos":
+            questions = [...juegos];
+            break;
 
         case "general":
             questions = [
@@ -123,7 +126,7 @@ function cargarPreguntas() {
                 ...salud,
                 ...economicas,
                 ...tecnologicas
-            
+   
             ];
             break;
 
